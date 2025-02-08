@@ -56,7 +56,7 @@ export function NoteList({ availableTags, notes, onUpdateTag, onDeleteTag}:NoteL
             <Col>
                 <Form.Group controlId="title">
                     <Form.Label>Title</Form.Label>
-                    <Form.Control type="text" value={title} onChange={e => setTitle(e.target.value)}/>
+                    <Form.Control type="text" value={title} onChange={e => setTitle(e.target.value)} placeholder="Search . . ." />
                     </Form.Group>
             </Col>
             <Col>
